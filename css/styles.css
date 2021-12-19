@@ -1,0 +1,190 @@
+/* Color Palette
+https://coolors.co/b5c2b7-8c93a8-62466b-45364b-2d2327
+#B5C2B7 - ash gray
+#8C93A8 - cool grey
+#62466B - english violet
+#45364B - english violet (darker)
+#2D2327 - black coffee
+*/
+
+/* Global
+----------------------------------------------------- */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	color: #2D2327;
+	margin: 0;
+	padding: 0;
+	font-family: 'EB Garamond', 'Times New Roman', serif;
+	font-size: 18px;
+	line-height: 1.25;
+}
+img {
+	margin: 0;
+	width: 15vw;
+}
+a:link {
+	color: green;
+}
+a:visited {
+	color: gray;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-size: 35px;
+}
+h1, h2 {
+	font-family: 'Fondamento', cursive;
+	font-weight: 400;
+	margin: 0;
+}
+h3 {
+	margin: 12px 0;
+	font-size: 25px;
+}
+
+.header-wrap {
+	width: 70vw;
+	margin: 0 20px;
+	text-align: right;
+	display: inline-block;
+}
+.img-wrap {
+	width: 20vw;
+	margin: 0;
+	display: inline-block;
+}
+.content-wrap {
+	width: 80vw;
+	margin: 0 auto;
+	padding: 10px;
+}
+.clear {
+	clear: both;
+}
+.name {
+	position: fixed;
+}
+h4 {
+	margin-bottom: 0;
+}
+h4 + p {
+	font-style: italic;
+	font-weight: bold;
+}
+h4 ~ p {
+	margin: 0;
+}
+.divider > section {
+	border-bottom: 1px dashed #2D2327;
+	padding: 25px 0;
+}
+.divider > section:last-of-type {
+	border-bottom: none;
+}
+
+
+/* Name and Position
+----------------------------------------------------- */
+header {
+	background: #45364B;
+	color: #B5C2B7;
+	margin: 0;
+	padding: 20px 0;
+}
+
+
+/* Summary
+----------------------------------------------------- */
+.summary {
+	background: #45364B;
+	color: #B5C2B7;
+}
+
+
+
+
+/* Skills and Proficiency
+----------------------------------------------------- */
+.skills {
+	background: #B5C2B7;
+}
+
+
+
+
+
+/* Work Experience
+----------------------------------------------------- */
+.work-experience {
+	background: #8C93A8;
+}
+
+
+
+
+/* Education
+----------------------------------------------------- */
+.education {
+	background-color: #B5C2B7;
+	background-image: url(../images/Education-Logos.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: cover;
+}
+.education section {
+	width: 60vw;
+}
+
+
+
+
+/* Seminars and Training
+----------------------------------------------------- */
+
+
+
+
+
+/* Contact Info
+----------------------------------------------------- */
+footer {
+	background: #2D2327;
+	color: #B5C2B7;
+}
+.contact-list {
+	list-style-type: none;
+	padding: 0px;
+}
+.contact-list a {
+	padding: 15px;
+	display: inline-block;
+}
+
+
+
+/* Contact Info
+----------------------------------------------------- */
+@media screen and (min-width: 750px) {
+	footer {
+		text-align: center;
+	}
+	.contact-list {
+		display: flex;
+		justify-content: center;
+	}
+	.job-item {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		column-gap: 20px;
+	}	
+}
+
