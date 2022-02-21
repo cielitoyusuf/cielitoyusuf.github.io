@@ -5,6 +5,7 @@ https://coolors.co/000022-001242-0094c6-005e7c-040f16
 #0094C6 - blue NCS
 #005E7C - blue sapphire
 #040F16 - rich black FOGRA 29
+#507DBC - glaucous
 */
 
 /* Global
@@ -95,8 +96,8 @@ h4 ~ p {
 /* Name and Position
 ----------------------------------------------------- */
 header {
-	background: #001242;
-	color: #040F16;
+	background: #040F16;
+	color: #0094C6;
 	margin: 0;
 	padding: 20px 0;
 }
@@ -115,7 +116,7 @@ header {
 /* Skills and Proficiency
 ----------------------------------------------------- */
 .skills {
-	background: #005E7C;
+	background: #0094C6;
 }
 
 
@@ -125,7 +126,7 @@ header {
 /* Work Experience
 ----------------------------------------------------- */
 .work-experience {
-	background: #0094C6;
+	background: #507DBC;
 }
 
 
@@ -134,7 +135,7 @@ header {
 /* Education
 ----------------------------------------------------- */
 .education {
-	background: #005E7C;
+	background: #0094C6;
 /*	background-image: url(../images/Education-Logos.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom right;
@@ -150,15 +151,15 @@ header {
 /* Co-Curricular Activities
 ----------------------------------------------------- */
 .cocurricular {
-	background: #0094C6;
+	background: #507DBC;
 }
 
 
 
 /* Seminars and Training
 ----------------------------------------------------- */
-.work-experience {
-	background: #005E7C;
+.seminars {
+	background: #0094C6;
 }
 
 
@@ -167,8 +168,8 @@ header {
 /* Contact Info
 ----------------------------------------------------- */
 footer {
-	background: #001242;
-	color: #040F16;
+	background: #040F16;
+	color: #0094C6;
 }
 .contact-list {
 	list-style-type: none;
