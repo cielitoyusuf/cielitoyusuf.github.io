@@ -1,10 +1,10 @@
 /* Color Palette
-https://coolors.co/b5c2b7-8c93a8-62466b-45364b-2d2327
-#B5C2B7 - ash gray
-#8C93A8 - cool grey
-#62466B - english violet
-#45364B - english violet (darker)
-#2D2327 - black coffee
+https://coolors.co/000022-001242-0094c6-005e7c-040f16
+#000022 - oxford blue (darker)
+#001242 - oxford blue
+#0094C6 - blue NCS
+#005E7C - blue sapphire
+#040F16 - rich black FOGRA 29
 */
 
 /* Global
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	color: #2D2327;
+	color: #000022;
 	margin: 0;
 	padding: 0;
 	font-family: 'EB Garamond', 'Times New Roman', serif;
@@ -84,7 +84,7 @@ h4 ~ p {
 	margin: 0;
 }
 .divider > section {
-	border-bottom: 1px dashed #2D2327;
+	border-bottom: 1px dashed #040F16;
 	padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -95,8 +95,8 @@ h4 ~ p {
 /* Name and Position
 ----------------------------------------------------- */
 header {
-	background: #45364B;
-	color: #B5C2B7;
+	background: #001242;
+	color: #040F16;
 	margin: 0;
 	padding: 20px 0;
 }
@@ -105,8 +105,8 @@ header {
 /* Summary
 ----------------------------------------------------- */
 .summary {
-	background: #45364B;
-	color: #B5C2B7;
+	background: #001242;
+	color: #0094C6;
 }
 
 
@@ -115,7 +115,7 @@ header {
 /* Skills and Proficiency
 ----------------------------------------------------- */
 .skills {
-	background: #B5C2B7;
+	background: #005E7C;
 }
 
 
@@ -125,7 +125,7 @@ header {
 /* Work Experience
 ----------------------------------------------------- */
 .work-experience {
-	background: #8C93A8;
+	background: #0094C6;
 }
 
 
@@ -134,11 +134,12 @@ header {
 /* Education
 ----------------------------------------------------- */
 .education {
-	background-color: #B5C2B7;
-	background-image: url(../images/Education-Logos.jpg);
+	background: #005E7C;
+/*	background-image: url(../images/Education-Logos.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-size: cover;
+*/
 }
 .education section {
 	width: 60vw;
@@ -146,10 +147,19 @@ header {
 
 
 
+/* Co-Curricular Activities
+----------------------------------------------------- */
+.cocurricular {
+	background: #0094C6;
+}
+
+
 
 /* Seminars and Training
 ----------------------------------------------------- */
-
+.work-experience {
+	background: #005E7C;
+}
 
 
 
@@ -157,8 +167,8 @@ header {
 /* Contact Info
 ----------------------------------------------------- */
 footer {
-	background: #2D2327;
-	color: #B5C2B7;
+	background: #001242;
+	color: #040F16;
 }
 .contact-list {
 	list-style-type: none;
