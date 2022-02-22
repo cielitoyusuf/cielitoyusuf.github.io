@@ -1,11 +1,10 @@
 /* Color Palette
-https://coolors.co/000022-001242-0094c6-005e7c-040f16
-#000022 - oxford blue (darker)
-#001242 - oxford blue
-#0094C6 - blue NCS
-#005E7C - blue sapphire
-#040F16 - rich black FOGRA 29
+https://coolors.co/04080f-507dbc-a1c6ea-bbd1ea-dae3e5
+#04080F - rich black FOGRA 29
 #507DBC - glaucous
+#A1C6EA - baby blue eyes
+#BBD1EA - light steel blue
+#DAE3E5 - gainsboro
 */
 
 /* Global
@@ -19,7 +18,7 @@ html {
 }
 
 body {
-	color: #000022;
+	color: #04080F;
 	margin: 0;
 	padding: 0;
 	font-family: 'EB Garamond', 'Times New Roman', serif;
@@ -31,7 +30,7 @@ img {
 	width: 15vw;
 }
 a:link {
-	color: green;
+	color: #507DBC;
 }
 a:visited {
 	color: gray;
@@ -85,7 +84,7 @@ h4 ~ p {
 	margin: 0;
 }
 .divider > section {
-	border-bottom: 1px dashed #040F16;
+	border-bottom: 1px dashed #04080F;
 	padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -96,8 +95,8 @@ h4 ~ p {
 /* Name and Position
 ----------------------------------------------------- */
 header {
-	background: #040F16;
-	color: #0094C6;
+	background: #04080F;
+	color: #A1C6EA;
 	margin: 0;
 	padding: 20px 0;
 }
@@ -106,8 +105,8 @@ header {
 /* Summary
 ----------------------------------------------------- */
 .summary {
-	background: #001242;
-	color: #0094C6;
+	background: #04080F;
+	color: #A1C6EA;
 }
 
 
@@ -116,7 +115,7 @@ header {
 /* Skills and Proficiency
 ----------------------------------------------------- */
 .skills {
-	background: #0094C6;
+	background: #DAE3E5;
 }
 
 
@@ -126,7 +125,7 @@ header {
 /* Work Experience
 ----------------------------------------------------- */
 .work-experience {
-	background: #507DBC;
+	background: #BBD1EA;
 }
 
 
@@ -135,7 +134,7 @@ header {
 /* Education
 ----------------------------------------------------- */
 .education {
-	background: #0094C6;
+	background: #DAE3E5;
 /*	background-image: url(../images/Education-Logos.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom right;
@@ -151,7 +150,7 @@ header {
 /* Co-Curricular Activities
 ----------------------------------------------------- */
 .cocurricular {
-	background: #507DBC;
+	background: #BBD1EA;
 }
 
 
@@ -159,7 +158,7 @@ header {
 /* Seminars and Training
 ----------------------------------------------------- */
 .seminars {
-	background: #0094C6;
+	background: #DAE3E5;
 }
 
 
@@ -168,8 +167,8 @@ header {
 /* Contact Info
 ----------------------------------------------------- */
 footer {
-	background: #040F16;
-	color: #0094C6;
+	background: #04080F;
+	color: #A1C6EA;
 }
 .contact-list {
 	list-style-type: none;
